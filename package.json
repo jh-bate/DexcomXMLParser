@@ -1,0 +1,59 @@
+{
+  "name": "tidepool-dexcomxml-stream",
+  "version": "0.0.1",
+  "description": "Parse Dexcom xml files into json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tidepool-org/dexcomxml-stream.git"
+  },
+  "keywords": [
+    "Dexcom",
+    "export",
+    "text",
+    "json",
+    "parser",
+    "xml",
+    "stream"
+  ],
+  "testling": {
+    "harness": "mocha",
+    "browsers": [
+      "ie/9..latest",
+      "chrome/20..latest",
+      "firefox/14..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ],
+    "files": "test/Test*.js"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "index"
+      ],
+      "data-cover-never": [
+        "node"
+      ]
+    }
+  },
+  "author": "Tidepool contributors",
+  "license": "BSD-2",
+  "bugs": {
+    "url": "https://github.com/tidepool-org/dexcomxml-stream/issues"
+  },
+  "homepage": "https://github.com/tidepool-org/dexcomxml-stream",
+  "devDependencies": {
+    "should": "~3.1.2",
+    "xml2js": "0.0.1" 
+  },
+  "dependencies": {
+    "event-stream": "~3.1.0",
+    "moment": "~2.5.1"
+  }
+}
