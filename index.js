@@ -101,7 +101,7 @@ dxcomXMLParser.cbg = function( ) {
 };
 
 
-dxcomXMLParser.prototype.sayHello = function() {
+dxcomXMLParser.sayHello = function() {
   console.log("Hello!");
   };
 
