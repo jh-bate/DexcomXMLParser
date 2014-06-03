@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tidepool-org/dexcomxml-stream.git"
+    "url": "git://github.com/sszyszkiewicz/DexcomXMLParser.git"
   },
   "keywords": [
     "Dexcom",
@@ -19,41 +19,17 @@
     "xml",
     "stream"
   ],
-  "testling": {
-    "harness": "mocha",
-    "browsers": [
-      "ie/9..latest",
-      "chrome/20..latest",
-      "firefox/14..latest",
-      "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6"
-    ],
-    "files": "test/Test*.js"
-  },
-  "config": {
-    "blanket": {
-      "pattern": [
-        "index"
-      ],
-      "data-cover-never": [
-        "node"
-      ]
-    }
-  },
   "author": "Tidepool contributors",
   "license": "BSD-2",
   "bugs": {
-    "url": "https://github.com/tidepool-org/dexcomxml-stream/issues"
+    "url": "https://github.com/sszyszkiewicz/DexcomXMLParser/issues"
   },
-  "homepage": "https://github.com/tidepool-org/dexcomxml-stream",
+  "homepage": "https://github.com/sszyszkiewicz/DexcomXMLParser",
   "devDependencies": {
-    "should": "~3.1.2",
-    "xml2js": "0.0.1" 
   },
   "dependencies": {
-    "event-stream": "~3.1.0",
-    "moment": "~2.5.1"
+    "event-stream": "3.1.0",
+    "moment": "2.5.1",
+    "xml2js": "0.4.4"
   }
 }
